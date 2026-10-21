@@ -1,0 +1,18 @@
+esm>=3.2.1
+httpx
+torch>=2.0.0
+h5py
+numpy
+pandas
+scipy
+scikit-learn
+obonet
+networkx
+biopython
+PyYAML
+tqdm
+# only needed for --model_name prot_t5
+transformers
+sentencepiece
+# optional GPU acceleration on CUDA machines:
+# cupy-cuda12x, cuml-cu12

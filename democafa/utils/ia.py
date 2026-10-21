@@ -1,0 +1,256 @@
+from os import makedirs, path
+import sys
+import argparse
+import obonet
+import numpy as np
+import pandas as pd
+import networkx as nx
+from collections import Counter
+from scipy.sparse import dok_matrix
+from typing import Optional
+import requests
+
+
+def download_file(url, destination):
+    dest_path = path.dirname(destination) or "."
+    makedirs(dest_path, exist_ok=True)
+    with requests.get(url, stream=True, timeout=60) as r:
+        r.raise_for_status()
+        with open(destination, "wb") as f:
+            for chunk in r.iter_content(8192):
+                f.write(chunk)
+    return destination
+
+
+def clean_ontology_edges(ontology):
+    """
+    Remove all ontology edges except types "is_a" and "part_of" and ensure there are no inter-ontology edges
+    :param ontology: Ontology stucture (networkx DiGraph or MultiDiGraph)
+    """
+    
+    # keep only "is_a" and "part_of" edges (All the "regulates" edges are in BPO)
+    remove_edges = [(i, j, k) for i, j, k in ontology.edges if not(k=="is_a" or k=="part_of")]
+    
+    ontology.remove_edges_from(remove_edges)
+    
+    # There should not be any cross-ontology edges, but we verify here
+    crossont_edges = [(i, j, k) for i, j, k in ontology.edges if
+                      ontology.nodes[i]['namespace']!= ontology.nodes[j]['namespace']]
+    if len(crossont_edges)>0:
+        ontology.remove_edges_from(crossont_edges)
+    
+    return ontology
+    
+
+def fetch_aspect(ontology, root:str):
+    """
+    Return a subgraph of an ontology starting at node <root>
+    
+    :param ontology: Ontology stucture (networkx DiGraph or MultiDiGraph)
+    :param root: node name (GO term) to start subgraph
+    """
+    
+    
+    namespace = ontology.nodes[root]['namespace']
+    aspect_nodes = [n for n,v in ontology.nodes(data=True) 
+                    if v['namespace']==namespace]
+    subont_ = ontology.subgraph(aspect_nodes)
+    return subont_
+
+
+def term_aspect(term, subontologies):
+    """
+    Find the aspect for a term
+    :param term: term ID, corresponding to name of node in graph
+    :param subontologies: dictionary of networkx graphs. keys are aspect name, 
+                          eg {'BPO': <networkx MultiDiGraph>, 'CCO': <networkx MultiDiGraph>}, 'MFO': <networkx MultiDiGraph>}
+    """
+    
+    for aspect, graph in subontologies.items():
+        if term in graph.nodes:
+            return aspect
+
+    # if term is not found, nothing is returned 
+
+
+def lookup_aspect(annot_df, subontologies):
+    """
+    Find the aspect (BPO, CCO, or MFO) for terms in the annotation dataframe 
+    :param annot_df: dataframe with columns 'EntryID' and 'term'
+    :param subontologies: dictionary of networkx graphs. keys are aspect name,
+                          eg {'BPO': <networkx MultiDiGraph>, 'CCO': <networkx MultiDiGraph>}, 'MFO': <networkx MultiDiGraph>}
+    """
+    
+    # find aspect for all terms
+    all_terms = annot_df.term.unique()
+    lookup = [(t, term_aspect(t, subontologies)) for t in all_terms]
+        
+    lookup_df = pd.DataFrame(lookup, columns=['term','aspect'])
+        
+    # merge with original dataframe
+    df = annot_df[['EntryID','term']].merge(lookup_df)
+    
+    return df
+
+
+def propagate_terms(terms_df, subontologies):
+    """
+    Propagate terms in DataFrame terms_df abbording to the structure in subontologies.
+    If terms were already propagated with the same graph, the returned dataframe will be equivalent to the input
+    
+    :param terms_df: pandas DataFrame of annotated terms (column names 'EntryID', 'term' 'aspect')
+    :param subontologies: dict of ontology aspects (networkx DiGraphs or MultiDiGraphs)
+    """
+    
+    # Look up ancestors ahead of time for efficiency
+    subont_terms = {aspect: set(terms_df[terms_df.aspect==aspect].term.values) for aspect in subontologies.keys()}
+    ancestor_lookup = {aspect:{t: nx.descendants(subont,t) for t in subont_terms[aspect]
+                             if t in subont} for aspect, subont in subontologies.items()}
+
+    propagated_terms = []
+    for (protein, aspect), entry_df in terms_df.groupby(['EntryID', 'aspect']):
+        protein_terms = set().union(*[list(ancestor_lookup[aspect][t])+[t] for t in set(entry_df.term.values)])
+
+        propagated_terms += [{'EntryID': protein, 'term': t, 'aspect': aspect} for t in protein_terms]
+
+    return pd.DataFrame(propagated_terms)
+
+
+def term_counts(terms_df, term_indices):
+    """
+    Count the number of instances of each term
+    
+    :param terms_df: pandas DataFrame of (propagated) annotated terms (column names 'EntryID', 'term', 'aspect')
+    :param term_indices:
+    """
+    
+    num_proteins = len(terms_df.groupby('EntryID'))
+    S = dok_matrix((num_proteins+1, len(term_indices)), dtype=np.int32)
+    S[-1,:] = 1  # dummy protein
+    
+    for i, (protein, protdf) in enumerate(terms_df.groupby('EntryID')):
+        row_count = {term_indices[t]:c for t,c in Counter(protdf['term']).items()}
+        for col, count in row_count.items():
+            S[i, col] = count
+    
+    return S
+
+    
+def parse_inputs(argv):
+    parser = argparse.ArgumentParser(
+        description='Compute Information Accretion of GO annotations. Note: If annotations in input file have been propagated to ontology roots, the input onotology graph should be the same as the one used to propagate terms')
+    
+    parser.add_argument('--annot', '-a', required=True, 
+                        help='Path to annotation file')
+    
+    parser.add_argument('--graph', '-g', default=None, 
+                        help='Path to OBO ontology graph file if local. If empty (default) current OBO structure at run-time will be downloaded from http://purl.obolibrary.org/obo/go/go-basic.obo')
+    
+    parser.add_argument('--outfile', '-o', default='IA.txt', 
+                        help='Path to save computed IA for each term in the GO. If empty, will be saved to ./IA.txt')  
+    
+    parser.add_argument('--prop', '-p', action='store_true', 
+                        help='Flag to propagate terms in annotation file according to the ontology graph')
+
+    parser.add_argument('--parse_obsolete', default=False, action=argparse.BooleanOptionalAction,
+                        help='Flag to read obsolete ontology terms in the the ontology graph. False by default.')
+    
+    parser.add_argument('--propagated_file', '-pf', default=None,
+                        help='Path to output propagated annotation file (optional). If provided, propagated annotations will be saved to this file.')
+    
+    return parser.parse_args(argv)
+
+
+def calc_ia(term, count_matrix, ontology, terms_index):
+    
+    parents = nx.descendants_at_distance(ontology, term, 1)
+    
+    # count of proteins with term
+    prots_with_term = count_matrix[:,terms_index[term]].sum()
+    
+    # count of proteins with all parents
+    num_parents = len(parents)
+    prots_with_parents = (count_matrix[:,[terms_index[p] for p in parents]].sum(1)==num_parents).sum()
+    
+    # avoid floating point errors by returning exactly zero
+    if prots_with_term == prots_with_parents:
+        return 0
+    
+    return -np.log2(prots_with_term/prots_with_parents)
+
+
+def run(annotation_path: str, output_file_path: str, propagated_file_path: Optional[str] = None, obo_path: Optional[str] = None, propagate_annotations: bool = False,
+        parse_obsolete: bool = False):
+    # load ontology graph and annotated terms
+    if obo_path is None:
+        print('Downloading OBO file from http://purl.obolibrary.org/obo/go/go-basic.obo')
+        obo_path = download_file('http://purl.obolibrary.org/obo/go/go-basic.obo', 'go-basic.obo')
+    ontology_graph = clean_ontology_edges(obonet.read_obo(obo_path, ignore_obsolete=(not parse_obsolete)))
+    # these terms should be propagated using the same ontology, otherwise IA may be negative
+    annotation_df = pd.read_csv(annotation_path, sep='\t')
+
+    # Get the three subontologies
+    roots = {'P': 'GO:0008150', 'C': 'GO:0005575', 'F': 'GO:0003674'}
+    subontologies = {aspect: fetch_aspect(ontology_graph, roots[aspect]) for aspect in roots} 
+ 
+    # check annotation format
+    if ('EntryID' not in annotation_df.columns) or ('term' not in annotation_df.columns):
+        raise KeyError("Annotation file should have column headers 'EntryID' and 'term'")
+    if 'aspect' not in annotation_df.columns:
+        # look up aspect for each term
+        annotation_df = lookup_aspect(annotation_df, subontologies)
+      
+    if propagate_annotations:
+        print('Propagating Terms')
+        annotation_df = propagate_terms(annotation_df, subontologies)
+        if propagated_file_path is not None:
+            annotation_df[['EntryID','term','aspect']].to_csv(propagated_file_path, sep='\t', index=False, header=True)
+            
+    # Count term instances
+    print('Counting Terms')
+    aspect_counts = dict()
+    aspect_terms = dict()
+    term_idx = dict()
+    for aspect, subont in subontologies.items():
+        aspect_terms[aspect] = sorted(subont.nodes)  # ensure same order
+        term_idx[aspect] = {t:i for i,t in enumerate(aspect_terms[aspect])}
+        aspect_counts[aspect] = term_counts(annotation_df[annotation_df.aspect==aspect], term_idx[aspect])
+        
+        assert aspect_counts[aspect].sum() == len(annotation_df[annotation_df.aspect==aspect]) + len(aspect_terms[aspect])
+    
+
+    # since we are indexing by column to compute IA, 
+    # let's convert to Compressed Sparse Column format
+    sp_matrix = {aspect:dok.tocsc() for aspect, dok in aspect_counts.items()}
+
+    # Compute IA
+    print('Computing Information Accretion')
+    aspect_ia = {aspect: {t:0 for t in aspect_terms[aspect]} for aspect in aspect_terms.keys()}
+    for aspect, subontology in subontologies.items():
+        for term in aspect_ia[aspect].keys():
+            aspect_ia[aspect][term] = calc_ia(term, sp_matrix[aspect], subontology, term_idx[aspect])
+    
+    ia_df = pd.concat([pd.DataFrame.from_dict(
+        {'term':aspect_ia[aspect].keys(), 
+         'ia': aspect_ia[aspect].values(), 
+         'aspect': aspect}) for aspect in subontologies.keys()])
+    
+    # all counts should be non-negative
+    if ia_df['ia'].min() < 0:
+        raise ValueError('Negative Information Accretion values encountered. Propagate terms on ontology to ensure valid IA values.\n' \
+                         'If terms in input file are already propagated, ensure this was done on the same ontology used here') 
+    
+    # Save to file
+    print(f'Saving to file {output_file_path}')
+
+    ia_df[['term', 'ia']].to_csv(output_file_path, header=None, sep='\t', index=False)
+
+
+def main():
+    args = parse_inputs(sys.argv[1:])
+    run(annotation_path=args.annot, obo_path=args.graph, propagate_annotations=args.prop, output_file_path=args.outfile,
+        propagated_file_path=args.propagated_file, parse_obsolete=args.parse_obsolete)
+
+
+if __name__ == '__main__':
+    main()

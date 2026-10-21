@@ -1,0 +1,35 @@
+# Data and results (large; regenerate with the scripts in runs/)
+data/
+runs/**
+!runs/
+!runs/human/
+!runs/human/*.sh
+!runs/human/*.md
+!runs/human/figures/
+!runs/human/figures/*.py
+!runs/human/figures/*.png
+
+# Build and install artifacts
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Logs, local files, editor and OS files
+logs/
+updates/
+.vscode/
+.DS_Store
+~$*
+
+# Embeddings and BLAST databases, wherever they end up
+*.h5
+*.pdb
+*.phr
+*.pin
+*.pjs
+*.pog
+*.psq
+*.pot
+*.ptf
+*.pto

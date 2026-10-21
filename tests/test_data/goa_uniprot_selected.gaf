@@ -1,0 +1,424 @@
+!gaf-version: 2.2
+!
+!This file contains all GO annotations and gene product information for proteins in the UniProt KnowledgeBase (UniProtKB),
+!ComplexPortal protein complexes, and RNAcentral identifiers.
+!
+!date-generated: 2025-05-03 13:14 
+!generated-by: UniProt
+!go-version: http://purl.obolibrary.org/obo/go/releases/2025-04-27/extensions/go-plus.owl
+!
+UniProtKB	Q04604	TYR	enables	GO:0005507	GO_REF:0000024	ISS	UniProtKB:Q9ZP19	F	Tyrosinase	TYR|TYRS	protein	taxon:8409	20161118	UniProt		
+UniProtKB	Q04604	TYR	located_in	GO:0042470	GO_REF:0000024	ISS	UniProtKB:Q0MVP0	C	Tyrosinase	TYR|TYRS	protein	taxon:8409	20161118	UniProt		
+UniProtKB	Q04604	TYR	enables	GO:0004503	GO_REF:0000024	ISS	UniProtKB:Q0MVP0	F	Tyrosinase	TYR|TYRS	protein	taxon:8409	20161118	UniProt		
+UniProtKB	Q04604	TYR	involved_in	GO:0006583	GO_REF:0000024	ISS	UniProtKB:Q0MVP0	P	Tyrosinase	TYR|TYRS	protein	taxon:8409	20161118	UniProt		
+UniProtKB	P94408	yclF	is_active_in	GO:0005886	GO_REF:0000033	IBA	PANTHER:PTN000183631|UniProtKB:P36837|UniProtKB:P39276|UniProtKB:P75742|UniProtKB:P77304	C	Uncharacterized transporter YclF	yclF|BSU03670	protein	taxon:224308	20230831	GO_Central		
+UniProtKB	P94408	yclF	enables	GO:0022857	GO_REF:0000033	IBA	CGD:CAL0000177961|CGD:CAL0000200802|FB:FBgn0265575|MGI:MGI:1861376|MGI:MGI:1890457|MGI:MGI:1929691|MGI:MGI:2140796|PANTHER:PTN008522918|PomBase:SPBC13A2.04c|RGD:61972|RGD:708469|SGD:S000001801|TAIR:locus:2008855|TAIR:locus:2009472|TAIR:locus:2009487|TAIR:locus:2030316|TAIR:locus:2033776|TAIR:locus:2035005|TAIR:locus:2037452|TAIR:locus:2041125|TAIR:locus:2042937|TAIR:locus:2080235|TAIR:locus:2085647|TAIR:locus:2093442|TAIR:locus:2097910|TAIR:locus:2102659|TAIR:locus:2102679|TAIR:locus:2102689|TAIR:locus:2119058|TAIR:locus:2147499|TAIR:locus:2150124|TAIR:locus:2161438|TAIR:locus:2172249|TAIR:locus:2196739|TAIR:locus:2196800|TAIR:locus:2205719|TAIR:locus:2206991|UniProtKB:D2IU94|UniProtKB:P36837|UniProtKB:P39276|UniProtKB:P46059|UniProtKB:P75742|UniProtKB:P77304|UniProtKB:Q16348|UniProtKB:Q8IY34|UniProtKB:Q8N697|WB:WBGene00003877|WB:WBGene00003878|ZFIN:ZDB-GENE-030131-4661|ZFIN:ZDB-GENE-030131-5866|dictyBase:DDB_G0272550	F	Uncharacterized transporter YclF	yclF|BSU03670	protein	taxon:224308	20240729	GO_Central		
+UniProtKB	P94408	yclF	involved_in	GO:0055085	GO_REF:0000033	IBA	FB:FBgn0265575|MGI:MGI:1861376|MGI:MGI:1890457|MGI:MGI:2140796|PANTHER:PTN008522918|PomBase:SPBC13A2.04c|RGD:61972|TAIR:locus:2008855|TAIR:locus:2009472|TAIR:locus:2009487|TAIR:locus:2030316|TAIR:locus:2033776|TAIR:locus:2035005|TAIR:locus:2037452|TAIR:locus:2042937|TAIR:locus:2085647|TAIR:locus:2093442|TAIR:locus:2102659|TAIR:locus:2102679|TAIR:locus:2196800|TAIR:locus:2205719|TAIR:locus:2206991|UniProtKB:P36837|UniProtKB:P39276|UniProtKB:P46059|UniProtKB:P75742|UniProtKB:P77304|UniProtKB:Q16348|UniProtKB:Q8IY34|UniProtKB:Q8N697|WB:WBGene00003878|dictyBase:DDB_G0272550	P	Uncharacterized transporter YclF	yclF|BSU03670	protein	taxon:224308	20241120	GO_Central		
+UniProtKB	Q5W0B1	OBI1	located_in	GO:0000785	PMID:31160578	IDA		C	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20190704	UniProt		
+UniProtKB	Q5W0B1	OBI1	enables	GO:0004842	PMID:31160578	IDA		F	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20190704	UniProt		
+UniProtKB	Q5W0B1	OBI1	involved_in	GO:0051865	PMID:31160578	IDA		P	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20190704	UniProt		
+UniProtKB	Q5W0B1	OBI1	involved_in	GO:0006275	PMID:31160578	IDA		P	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20190704	UniProt		
+UniProtKB	Q5W0B1	OBI1	involved_in	GO:0006513	PMID:31160578	IDA		P	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20190704	UniProt		
+UniProtKB	Q5W0B1	OBI1	enables	GO:0003682	PMID:31160578	IDA		F	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20190704	UniProt		
+UniProtKB	Q5W0B1	OBI1	enables	GO:0005515	PMID:31160578	IPI	UniProtKB:O43913,UniProtKB:Q9UBD5	F	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20190704	UniProt		
+UniProtKB	Q5W0B1	OBI1	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q8N8B7	F	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q5W0B1	OBI1	enables	GO:0005515	PMID:32814053	IPI	UniProtKB:Q7Z699	F	ORC ubiquitin ligase 1	OBI1|C13orf7|RNF219	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q3EC77	At2g03480	is_active_in	GO:0005737	GO_REF:0000033	IBA	PANTHER:PTN000010478|TAIR:locus:2032130|TAIR:locus:2117733	C	Probable methyltransferase PMT5	At2g03480|T4M8.9	protein	taxon:3702	20210903	GO_Central		
+UniProtKB	Q3EC77	At2g03480	located_in	GO:0000138	PMID:31266899	HDA		C	Probable methyltransferase PMT5	At2g03480|T4M8.9	protein	taxon:3702	20190816	TAIR		
+UniProtKB	Q3EC77	At2g03480	located_in	GO:0005794	PMID:22430844	HDA		C	Probable methyltransferase PMT5	At2g03480|T4M8.9	protein	taxon:3702	20210512	TAIR		
+UniProtKB	Q8SPZ8	RNASE8	is_active_in	GO:0005615	GO_REF:0000033	IBA	PANTHER:PTN000893251|UniProtKB:Q9H1E1	C	Ribonuclease 8	RNASE8	protein	taxon:9598	20200709	GO_Central		
+UniProtKB	Q8SPZ8	RNASE8	enables	GO:0004540	GO_REF:0000033	IBA	MGI:MGI:104984|MGI:MGI:1201793|MGI:MGI:1890463|MGI:MGI:1890464|MGI:MGI:2656551|MGI:MGI:88022|PANTHER:PTN008517922|UniProtKB:P00669|UniProtKB:P03950|UniProtKB:P07998|UniProtKB:P10152|UniProtKB:P10153|UniProtKB:P27043|UniProtKB:P30374|UniProtKB:P34096|UniProtKB:Q8TDE3|UniProtKB:Q93091|UniProtKB:Q9H1E1|ZFIN:ZDB-GENE-050208-420|ZFIN:ZDB-GENE-050809-5|ZFIN:ZDB-GENE-070713-7	F	Ribonuclease 8	RNASE8	protein	taxon:9598	20241120	GO_Central		
+UniProtKB	Q8SPZ8	RNASE8	involved_in	GO:0050829	GO_REF:0000033	IBA	PANTHER:PTN000893251|UniProtKB:Q8TDE3|UniProtKB:Q9H1E1	P	Ribonuclease 8	RNASE8	protein	taxon:9598	20200709	GO_Central		
+UniProtKB	Q8SPZ8	RNASE8	involved_in	GO:0050830	GO_REF:0000033	IBA	MGI:MGI:1925666|MGI:MGI:88022|PANTHER:PTN008517922|UniProtKB:P03950|UniProtKB:P12724|UniProtKB:P30374|UniProtKB:Q8TDE3|UniProtKB:Q93091|UniProtKB:Q9H1E1|ZFIN:ZDB-GENE-050208-420|ZFIN:ZDB-GENE-050809-5|ZFIN:ZDB-GENE-070713-7	P	Ribonuclease 8	RNASE8	protein	taxon:9598	20241120	GO_Central		
+UniProtKB	Q8SPZ8	RNASE8	involved_in	GO:0050832	GO_REF:0000033	IBA	PANTHER:PTN000893251|UniProtKB:Q8TDE3|UniProtKB:Q9H1E1	P	Ribonuclease 8	RNASE8	protein	taxon:9598	20200709	GO_Central		
+UniProtKB	Q8SPZ8	RNASE8	involved_in	GO:0045087	GO_REF:0000033	IBA	PANTHER:PTN000893251|UniProtKB:Q8TDE3|UniProtKB:Q9H1E1	P	Ribonuclease 8	RNASE8	protein	taxon:9598	20200709	GO_Central		
+UniProtKB	P18845	chrna3	involved_in	GO:0035095	GO_REF:0000024	ISS	UniProtKB:P32297	P	Neuronal acetylcholine receptor subunit alpha-3	chrna3	protein	taxon:7957	20090514	UniProt		
+UniProtKB	P18845	chrna3	enables	GO:0015464	GO_REF:0000024	ISS	UniProtKB:P32297	F	Neuronal acetylcholine receptor subunit alpha-3	chrna3	protein	taxon:7957	20090514	UniProt		
+UniProtKB	P18845	chrna3	part_of	GO:0005892	GO_REF:0000024	ISS	UniProtKB:P32297	C	Neuronal acetylcholine receptor subunit alpha-3	chrna3	protein	taxon:7957	20090514	UniProt		
+UniProtKB	P18845	chrna3	involved_in	GO:0007165	GO_REF:0000024	ISS	UniProtKB:P32297	P	Neuronal acetylcholine receptor subunit alpha-3	chrna3	protein	taxon:7957	20090514	UniProt		
+UniProtKB	P18845	chrna3	involved_in	GO:0007399	GO_REF:0000024	ISS	UniProtKB:P32297	P	Neuronal acetylcholine receptor subunit alpha-3	chrna3	protein	taxon:7957	20090514	UniProt		
+UniProtKB	P18845	chrna3	enables	GO:0022848	GO_REF:0000024	ISS	UniProtKB:P32297	F	Neuronal acetylcholine receptor subunit alpha-3	chrna3	protein	taxon:7957	20090514	UniProt		
+UniProtKB	P18845	chrna3	involved_in	GO:0060084	GO_REF:0000024	ISS	UniProtKB:P32297	P	Neuronal acetylcholine receptor subunit alpha-3	chrna3	protein	taxon:7957	20090514	UniProt		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0000730	GO_REF:0000033	IBA	PANTHER:PTN001415033|PomBase:SPAC20H4.07|PomBase:SPAC644.14c|PomBase:SPAC8E11.03c|SGD:S000002411|UniProtKB:Q06609	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20210905	GO_Central		
+UniProtKB	Q91918	rad51-a	enables	GO:0008094	GO_REF:0000033	IBA	PANTHER:PTN001415033|PomBase:SPAC644.14c|PomBase:SPAC8E11.03c|SGD:S000000897|UniProtKB:Q06609|UniProtKB:Q14565|UniProtKB:Q7GBF8|UniProtKB:Q8IIS8|WB:WBGene00004297	F	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20230111	GO_Central		
+UniProtKB	Q91918	rad51-a	is_active_in	GO:0000794	GO_REF:0000033	IBA	MGI:MGI:97890|PANTHER:PTN000534635|SGD:S000000897|UniProtKB:Q06609|WB:WBGene00004297	C	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20200809	GO_Central		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0042148	GO_REF:0000033	IBA	PANTHER:PTN001415033|PomBase:SPAC644.14c|PomBase:SPAC8E11.03c|SGD:S000000897	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20200809	GO_Central		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0006312	GO_REF:0000033	IBA	MGI:MGI:97890|PANTHER:PTN001415033|PomBase:SPAC644.14c|SGD:S000000897|SGD:S000002411|UniProtKB:C8VSQ3	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20220924	GO_Central		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0007131	GO_REF:0000033	IBA	MGI:MGI:97890|PANTHER:PTN000534635|PomBase:SPAC644.14c|SGD:S000000897	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20230603	GO_Central		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0070192	GO_REF:0000033	IBA	FB:FBgn0003479|MGI:MGI:97890|PANTHER:PTN000534635|WB:WBGene00004297	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20200809	GO_Central		
+UniProtKB	Q91918	rad51-a	enables	GO:0003690	GO_REF:0000033	IBA	CGD:CAL0000182507|PANTHER:PTN001415033|PomBase:SPAC644.14c|PomBase:SPAC8E11.03c|SGD:S000000897|SGD:S000000981|UniProtKB:Q06609|UniProtKB:Q7GBF8|WB:WBGene00004297	F	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20170228	GO_Central		
+UniProtKB	Q91918	rad51-a	enables	GO:0003697	GO_REF:0000033	IBA	CGD:CAL0000182507|MGI:MGI:97890|PANTHER:PTN001415033|PomBase:SPAC644.14c|PomBase:SPAC8E11.03c|SGD:S000000897|SGD:S000000981|UniProtKB:Q06609|UniProtKB:Q7GBF8	F	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20170228	GO_Central		
+UniProtKB	Q91918	rad51-a	enables	GO:0000150	GO_REF:0000033	IBA	MGI:MGI:105393|MGI:MGI:97890|PANTHER:PTN001415033|PomBase:SPAC644.14c|PomBase:SPAC8E11.03c|SGD:S000000897|SGD:S000000981|UniProtKB:Q06609|UniProtKB:Q8IIS8|WB:WBGene00004297	F	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20230111	GO_Central		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0000724	GO_REF:0000024	ISS	UniProtKB:Q06609	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0000730	GO_REF:0000024	ISS	UniProtKB:Q06609	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	located_in	GO:0000228	GO_REF:0000024	ISS	UniProtKB:Q06609	C	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20130809	UniProt		
+UniProtKB	Q91918	rad51-a	located_in	GO:0005634	GO_REF:0000024	ISS	UniProtKB:Q06609	C	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	located_in	GO:0005694	GO_REF:0000024	ISS	UniProtKB:Q08297	C	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20201109	UniProt		
+UniProtKB	Q91918	rad51-a	located_in	GO:0005737	GO_REF:0000024	ISS	UniProtKB:Q06609	C	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	enables	GO:0017116	GO_REF:0000024	ISS	UniProtKB:Q06609	F	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	involved_in	GO:0006974	GO_REF:0000024	ISS	UniProtKB:Q06609	P	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	enables	GO:0003690	GO_REF:0000024	ISS	UniProtKB:Q06609	F	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	enables	GO:0003697	GO_REF:0000024	ISS	UniProtKB:Q06609	F	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20160622	UniProt		
+UniProtKB	Q91918	rad51-a	located_in	GO:0005634	GO_REF:0000024	ISS	UniProtKB:Q08297	C	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20200723	UniProt		
+UniProtKB	Q91918	rad51-a	located_in	GO:0005737	GO_REF:0000024	ISS	UniProtKB:Q08297	C	DNA repair protein RAD51 homolog A	rad51-a|rad51-1|rad51.1	protein	taxon:8355	20200723	UniProt		
+UniProtKB	Q8IZR5	CMTM4	is_active_in	GO:0016020	GO_REF:0000033	IBA	MGI:MGI:2447162|MGI:MGI:892970|PANTHER:PTN001103553|RGD:621478|RGD:735066|UniProtKB:P21145|UniProtKB:Q04941|UniProtKB:Q13021|UniProtKB:Q28296|UniProtKB:Q969L2|UniProtKB:Q9NX76|UniProtKB:Q9UBR5|UniProtKB:Q9Y342|ZFIN:ZDB-GENE-050419-195	C	CKLF-like MARVEL transmembrane domain-containing protein 4	CMTM4|CKLFSF4	protein	taxon:9606	20250412	GO_Central		
+UniProtKB	Q8IZR5	CMTM4	enables	GO:0005515	PMID:28813417	IPI	UniProtKB:Q9NX76	F	CKLF-like MARVEL transmembrane domain-containing protein 4	CMTM4|CKLFSF4	protein	taxon:9606	20180326	UniProt		
+UniProtKB	Q8IZR5	CMTM4	enables	GO:0005515	PMID:28813410	IPI	UniProtKB:Q9NZQ7	F	CKLF-like MARVEL transmembrane domain-containing protein 4	CMTM4|CKLFSF4	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0140900	GO_REF:0000033	IBA	MGI:MGI:107181|MGI:MGI:1346029|MGI:MGI:2159728|MGI:MGI:2384791|MGI:MGI:2444594|PANTHER:PTN008330351|RGD:3293|RGD:69334|UniProtKB:O43511|UniProtKB:P40879|UniProtKB:Q8TE54|UniProtKB:Q9BXS9	F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20250403	GO_Central		
+UniProtKB	Q8R2Z3	Slc26a7	is_active_in	GO:0005886	GO_REF:0000033	IBA	MGI:MGI:1346029|MGI:MGI:1933154|MGI:MGI:2159728|MGI:MGI:2384791|MGI:MGI:2385894|MGI:MGI:2444589|MGI:MGI:2444594|MGI:MGI:892977|PANTHER:PTN002483418|RGD:1310197|RGD:1310846|RGD:3293|RGD:620136|RGD:620622|RGD:620623|RGD:69334|SGD:S000000498|SGD:S000004082|TAIR:locus:2029396|TAIR:locus:2093452|UniProtKB:O43511|UniProtKB:P0AFR2|UniProtKB:P40879|UniProtKB:P50443|UniProtKB:P58743|UniProtKB:Q7LBE3|UniProtKB:Q86WA9|UniProtKB:Q8TE54|UniProtKB:Q96RN1|UniProtKB:Q9BXS9|WB:WBGene00010788|WB:WBGene00010789|WB:WBGene00013963|WB:WBGene00017464|ZFIN:ZDB-GENE-030131-1566	C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20240516	GO_Central		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0019531	GO_REF:0000033	IBA	FB:FBgn0036770|MGI:MGI:2159728|MGI:MGI:2385894|PANTHER:PTN000929177|UniProtKB:A0A8V0Y720|UniProtKB:Q8TE54|UniProtKB:Q96RN1|WB:WBGene00010788|ZFIN:ZDB-GENE-030131-1566	F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20231108	GO_Central		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0015116	GO_REF:0000033	IBA	FB:FBgn0036770|MGI:MGI:2159728|MGI:MGI:2385894|MGI:MGI:892977|PANTHER:PTN000929279|PomBase:SPAC869.05c|PomBase:SPBC3H7.02|RGD:620136|SGD:S000000498|SGD:S000004082|UniProtKB:A0A8V0Y720|UniProtKB:P50443|UniProtKB:Q5B9Q0|UniProtKB:Q8TE54|UniProtKB:Q96RN1|UniProtKB:Q9BXS9|WB:WBGene00010788|WB:WBGene00017464|ZFIN:ZDB-GENE-030131-1566	F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20241120	GO_Central		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:1902358	GO_REF:0000033	IBA	FB:FBgn0036770|MGI:MGI:2159728|MGI:MGI:2384791|MGI:MGI:2385894|MGI:MGI:892977|PANTHER:PTN000212046|PomBase:SPAC869.05c|PomBase:SPBC3H7.02|RGD:620136|RGD:620622|SGD:S000000498|SGD:S000004082|UniProtKB:P50443|UniProtKB:Q5B9Q0|UniProtKB:Q86WA9|UniProtKB:Q8TE54|UniProtKB:Q96RN1|UniProtKB:Q9BEG8|UniProtKB:Q9BXS9|ZFIN:ZDB-GENE-030131-1566	P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20241120	GO_Central		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:1902476	GO_REF:0000033	IBA	PANTHER:PTN000212046|RGD:69334|UniProtKB:Q7LBE3	P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20241120	GO_Central		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0019532	GO_REF:0000033	IBA	MGI:MGI:2384791|PANTHER:PTN002624492|RGD:69334|UniProtKB:Q8TE54|ZFIN:ZDB-GENE-030131-1566	P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20250403	GO_Central		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0140900	PMID:12736153	IDA		F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0005254	PMID:24810589	IDA		F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230417	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0035429	PMID:15591059	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230418	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016323	PMID:24810589	IDA		C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230417	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016323	PMID:32726161	IDA		C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230417	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016323	PMID:30333321	IDA		C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016323	PMID:19723628	IDA		C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:1902358	PMID:15591059	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230418	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0015701	PMID:15591059	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230418	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0015705	PMID:15591059	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230418	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0015706	PMID:15591059	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230418	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0019532	PMID:15591059	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230418	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0140900	PMID:19723628	IMP		F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0015705	PMID:30333321	IMP		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0015705	PMID:35788623	IMP		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0006590	PMID:30333321	IMP		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016324	GO_REF:0000024	ISS	UniProtKB:Q8TE54	C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016328	GO_REF:0000024	ISS	UniProtKB:Q8TE54	C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20230327	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0005254	PMID:15591059	IDA		F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20050701	MGI		
+UniProtKB	Q8R2Z3	Slc26a7	acts_upstream_of_or_within	GO:0006821	PMID:15591059	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20050701	MGI		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016020	PMID:15591059	IC	GO:0005254	C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20050701	MGI		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0005253	PMID:15591059	IMP		F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20050701	MGI		
+UniProtKB	Q8R2Z3	Slc26a7	acts_upstream_of_or_within	GO:0006820	PMID:15591059	IMP		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20050701	MGI		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0001696	PMID:12736153	IDA		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20080131	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	located_in	GO:0016323	PMID:12736153	IDA		C	Anion exchange transporter	Slc26a7	protein	taxon:10090	20080131	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	enables	GO:0015106	PMID:12736153	IMP		F	Anion exchange transporter	Slc26a7	protein	taxon:10090	20080131	UniProt		
+UniProtKB	Q8R2Z3	Slc26a7	involved_in	GO:0015701	PMID:12736153	IMP		P	Anion exchange transporter	Slc26a7	protein	taxon:10090	20080131	UniProt		
+UniProtKB	A0JN41	CA10	enables	GO:0016836	GO_REF:0000033	IBA	PANTHER:PTN001450710|TAIR:locus:2083213|UniProtKB:Q8IHW5	F	Carbonic anhydrase-related protein 10	CA10	protein	taxon:9913	20240919	GO_Central		
+UniProtKB	P63027	VAMP2	located_in	GO:0008021	PMID:10099709	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140826	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0016079	PMID:15217342	TAS		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140826	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	part_of	GO:0031201	PMID:10099709	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140826	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0006887	PMID:10099709	TAS		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140826	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0015031	PMID:16677249	IMP		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20241116	ParkinsonsUK-UCL	part_of(GO:0043308)	
+UniProtKB	P63027	VAMP2	enables	GO:0005516	GO_REF:0000024	ISS	UniProtKB:P63044	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0042589	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0043005	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	enables	GO:0005543	GO_REF:0000024	ISS	UniProtKB:P63044	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0032869	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0044306	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140618	ParkinsonsUK-UCL	part_of(GO:0097457)	
+UniProtKB	P63027	VAMP2	located_in	GO:0045202	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0048471	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0005802	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0008021	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140618	ParkinsonsUK-UCL	part_of(UBERON:0000955)	
+UniProtKB	P63027	VAMP2	located_in	GO:0008021	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0008021	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0030141	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0030141	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0030672	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0043001	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0009749	GO_REF:0000024	ISS	UniProtKB:P63045	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0031410	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	enables	GO:0017075	GO_REF:0000024	ISS	UniProtKB:P63045	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0016079	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0016192	GO_REF:0000024	ISS	UniProtKB:P63045	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	part_of	GO:0070032	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	part_of	GO:0070033	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	part_of	GO:0070044	GO_REF:0000024	ISS	UniProtKB:P63044	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	part_of	GO:0070044	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0017156	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0017157	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0017157	GO_REF:0000024	ISS	UniProtKB:P63045	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0090316	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0065003	GO_REF:0000024	ISS	UniProtKB:P63045	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	enables	GO:0000149	GO_REF:0000024	ISS	UniProtKB:P63044	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	enables	GO:0000149	GO_REF:0000024	ISS	UniProtKB:P63045	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	enables	GO:0019905	GO_REF:0000024	ISS	UniProtKB:P63044	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	enables	GO:0048306	GO_REF:0000024	ISS	UniProtKB:P63045	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140902	ParkinsonsUK-UCL	occurs_in(UBERON:0000955)	
+UniProtKB	P63027	VAMP2	involved_in	GO:0060291	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0060627	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	involved_in	GO:0061025	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140922	ParkinsonsUK-UCL		
+UniProtKB	P63027	VAMP2	located_in	GO:0016020	PMID:22375059	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130909	MGI		
+UniProtKB	P63027	VAMP2	enables	GO:0005484	GO_REF:0000033	IBA	FB:FBgn0013342|PANTHER:PTN005236497|RGD:620421|SGD:S000000028|SGD:S000005854	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190828	GO_Central		
+UniProtKB	P63027	VAMP2	involved_in	GO:0035493	GO_REF:0000033	IBA	MGI:MGI:1313276|MGI:MGI:1321389|MGI:MGI:1336882|PANTHER:PTN000474132|RGD:3949	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190828	GO_Central		
+UniProtKB	P63027	VAMP2	is_active_in	GO:0005886	GO_REF:0000033	IBA	FB:FBgn0013342|MGI:MGI:1313277|MGI:MGI:1321389|MGI:MGI:1336882|PANTHER:PTN005236497|PomBase:SPAC6G9.11|RGD:3949|RGD:61880|SGD:S000000028|SGD:S000005854|UniProtKB:P63026|UniProtKB:Q5ASG1|UniProtKB:Q9BV40|WB:WBGene00004897|ZFIN:ZDB-GENE-030131-8225	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20231109	GO_Central		
+UniProtKB	P63027	VAMP2	enables	GO:0017075	GO_REF:0000033	IBA	MGI:MGI:1313277|PANTHER:PTN002904995|RGD:3949	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190828	GO_Central		
+UniProtKB	P63027	VAMP2	part_of	GO:0031201	GO_REF:0000033	IBA	FB:FBgn0013342|MGI:MGI:1313277|MGI:MGI:1336882|PANTHER:PTN005236497|RGD:3949|RGD:61880|RGD:620421|SGD:S000000028|SGD:S000005854|UniProtKB:P63026|UniProtKB:P63027|UniProtKB:Q15836|UniProtKB:Q9BV40	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20210906	GO_Central		
+UniProtKB	P63027	VAMP2	involved_in	GO:0006906	GO_REF:0000033	IBA	FB:FBgn0003660|FB:FBgn0013342|MGI:MGI:1313276|MGI:MGI:1321389|MGI:MGI:1336882|PANTHER:PTN005236497|RGD:3949|RGD:620421|SGD:S000000028|SGD:S000005854|UniProtKB:P63026|UniProtKB:P63027	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20220925	GO_Central		
+UniProtKB	P63027	VAMP2	located_in	GO:0031982	PMID:17313651	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150917	UniProt		
+UniProtKB	P63027	VAMP2	located_in	GO:0030136	PMID:19478182	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20100517	UniProt		
+UniProtKB	P63027	VAMP2	part_of	GO:0031201	PMID:19546860	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20120914	UniProt		
+UniProtKB	P63027	VAMP2	involved_in	GO:0006906	PMID:30929742	IMP		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20200417	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:22118466	IPI	UniProtKB:Q13492	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20181123	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:26635000	IPI	UniProtKB:Q16623	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190307	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:17313651	IPI	UniProtKB:Q05513	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150917	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:17313651	IPI	UniProtKB:P41743	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150917	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:17313651	IPI	UniProtKB:Q96P53	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150917	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:19478182	IPI	UniProtKB:P53675	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20100517	UniProt		
+UniProtKB	P63027	VAMP2	involved_in	GO:1902259	GO_REF:0000024	ISS	UniProtKB:P63045	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150423	UniProt		
+UniProtKB	P63027	VAMP2	colocalizes_with	GO:0008076	GO_REF:0000024	ISS	UniProtKB:P63045	C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150423	UniProt		
+UniProtKB	P63027	VAMP2	involved_in	GO:0048488	GO_REF:0000024	ISS	UniProtKB:P63044	P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20200417	UniProt		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	PMID:1976629	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20061109	PINC		
+UniProtKB	P63027	VAMP2	located_in	GO:0060203	Reactome:R-HSA-210426	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0060203	Reactome:R-HSA-210430	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0060203	Reactome:R-HSA-210444	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0060203	Reactome:R-HSA-264615	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0060203	Reactome:R-HSA-372505	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0060203	Reactome:R-HSA-372529	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0061202	Reactome:R-HSA-888589	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130528	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0061202	Reactome:R-HSA-917744	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130528	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0070083	Reactome:R-HSA-374899	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0070083	Reactome:R-HSA-374922	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0070083	Reactome:R-HSA-380574	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0070083	Reactome:R-HSA-380869	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0070083	Reactome:R-HSA-380901	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0070083	Reactome:R-HSA-380905	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20150207	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005829	Reactome:R-HSA-194796	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140121	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005829	Reactome:R-HSA-5228578	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140121	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005829	Reactome:R-HSA-5250606	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140128	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005829	Reactome:R-HSA-5250892	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140130	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005829	Reactome:R-HSA-5250962	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140131	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005829	Reactome:R-HSA-9609921	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20180603	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005829	Reactome:R-HSA-9617595	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20180603	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-210430	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-372529	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-374899	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-376369	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-380869	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-380901	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8867613	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8867754	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8867756	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8868071	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8868072	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8868230	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8868236	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8868648	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8868651	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-8868661	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0005886	Reactome:R-HSA-888589	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030667	Reactome:R-HSA-376369	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20130213	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030669	Reactome:R-HSA-8868658	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190205	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030669	Reactome:R-HSA-8868659	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190205	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030669	Reactome:R-HSA-8868660	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190205	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030669	Reactome:R-HSA-8868661	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190205	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030669	Reactome:R-HSA-8869438	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190205	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030669	Reactome:R-HSA-8871193	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190205	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030669	Reactome:R-HSA-8871194	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20190205	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030672	Reactome:R-HSA-194796	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140121	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030672	Reactome:R-HSA-5228578	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140121	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030672	Reactome:R-HSA-5250606	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140128	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030672	Reactome:R-HSA-5250892	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140128	Reactome		
+UniProtKB	P63027	VAMP2	located_in	GO:0030672	Reactome:R-HSA-5250962	TAS		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20140131	Reactome		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:17196367	IPI	UniProtKB:O94806	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct	occurs_in(GO:0031410)|occurs_in(GO:0005886)	
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:19543288	IPI	UniProtKB:Q57236	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:20798282	IPI	UniProtKB:P37840	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:20798282	IPI	UniProtKB:Q16623	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:22118466	IPI	UniProtKB:O55012	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:22172278	IPI	UniProtKB:A7GBG3	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:22172278	IPI	UniProtKB:D2KHQ9	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:O95721	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q12846	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:P31937	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:P32856-2	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:P61266	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q12846	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q13520	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q15125	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q16623	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q3SXY8	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q3ZAQ7	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q5T0T0	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q7Z5P4	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8IWU4	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8N5M9	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8N661	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8N6L0	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8TBB6	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q96BA8	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q96IK0	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9HA82	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9NY72	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9Y282	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:32814053	IPI	UniProtKB:P55072	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:33961781	IPI	UniProtKB:O95721	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:37776851	IPI	UniProtKB:P55072	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:38225382	IPI	UniProtKB:P61266	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:10481273	IPI	UniProtKB:Q16623	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20160818	CAFA		
+UniProtKB	P63027	VAMP2	located_in	GO:0016020	PMID:16677249	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141104	UniProt	part_of(CL:0000775)|part_of(CL:0000771)	
+UniProtKB	P63027	VAMP2	NOT|located_in	GO:0030667	PMID:16677249	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141104	UniProt		
+UniProtKB	P63027	VAMP2	part_of	GO:0031201	PMID:12730201	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141008	UniProt		
+UniProtKB	P63027	VAMP2	part_of	GO:0031201	PMID:12130530	IDA		C	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141008	UniProt		
+UniProtKB	P63027	VAMP2	involved_in	GO:0043308	PMID:16677249	IMP		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141104	UniProt		
+UniProtKB	P63027	VAMP2	NOT|involved_in	GO:0043312	PMID:16677249	IMP		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141104	UniProt		
+UniProtKB	P63027	VAMP2	NOT|involved_in	GO:0043320	PMID:18042464	IMP		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141104	UniProt		
+UniProtKB	P63027	VAMP2	NOT|involved_in	GO:1903593	PMID:18253931	IMP		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141106	UniProt		
+UniProtKB	P63027	VAMP2	NOT|involved_in	GO:0070254	PMID:22144578	IMP		P	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141120	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0005515	PMID:9920726	IPI	UniProtKB:O95292	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20070814	UniProt		
+UniProtKB	P63027	VAMP2	enables	GO:0019905	PMID:12855681	IPI	UniProtKB:Q12846	F	Vesicle-associated membrane protein 2	VAMP2|SYB2	protein	taxon:9606	20141021	UniProt		
+UniProtKB	Q6RSH7	VHLL	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q15038	F	von Hippel-Lindau-like protein	VHLL|VLP	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q6RSH7	VHLL	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q93062	F	von Hippel-Lindau-like protein	VHLL|VLP	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q6RSH7	VHLL	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O95231	F	von Hippel-Lindau-like protein	VHLL|VLP	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q6RSH7	VHLL	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q08AM6	F	von Hippel-Lindau-like protein	VHLL|VLP	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q6RSH7	VHLL	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q15038	F	von Hippel-Lindau-like protein	VHLL|VLP	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q6RSH7	VHLL	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q93062-3	F	von Hippel-Lindau-like protein	VHLL|VLP	protein	taxon:9606	20250426	IntAct		
+UniProtKB	P55850	Dsc3	enables	GO:0005509	GO_REF:0000033	IBA	FB:FBgn0015609|PANTHER:PTN001931974|RGD:735015	F	Desmocollin-3	Dsc3	protein	taxon:10090	20190325	GO_Central		
+UniProtKB	P55850	Dsc3	is_active_in	GO:0030057	GO_REF:0000033	IBA	MGI:MGI:103221|MGI:MGI:109173|MGI:MGI:1194993|PANTHER:PTN002771418|UniProtKB:Q02487	C	Desmocollin-3	Dsc3	protein	taxon:10090	20190325	GO_Central		
+UniProtKB	P55850	Dsc3	involved_in	GO:0098609	GO_REF:0000033	IBA	FB:FBgn0015609|MGI:MGI:2661061|PANTHER:PTN001931974|UniProtKB:Q02487|UniProtKB:Q14126	P	Desmocollin-3	Dsc3	protein	taxon:10090	20190325	GO_Central		
+UniProtKB	P55850	Dsc3	located_in	GO:0005576	PMID:17015624	IDA		C	Desmocollin-3	Dsc3	protein	taxon:10090	20071214	MGI	part_of(EMAPA:16046)	
+UniProtKB	P55850	Dsc3	located_in	GO:0005737	PMID:16418220	IDA		C	Desmocollin-3	Dsc3	protein	taxon:10090	20060309	MGI	part_of(CL:0000023),part_of(EMAPA:17962)	
+UniProtKB	P55850	Dsc3	located_in	GO:0005886	PMID:16418220	IDA		C	Desmocollin-3	Dsc3	protein	taxon:10090	20060309	MGI	part_of(CL:1000274),part_of(EMAPA:16046)	
+UniProtKB	P55850	Dsc3	located_in	GO:0030057	PMID:14673151	IDA		C	Desmocollin-3	Dsc3	protein	taxon:10090	20040408	MGI		
+UniProtKB	P55850	Dsc3	acts_upstream_of_or_within	GO:0001701	PMID:16418220	IMP	MGI:MGI:3615340	P	Desmocollin-3	Dsc3	protein	taxon:10090	20060309	MGI		
+UniProtKB	P55850	Dsc3	located_in	GO:0030057	PMID:38395410	IDA		C	Desmocollin-3	Dsc3	protein	taxon:10090	20241113	UniProt		
+UniProtKB	Q9ZFU7	eutR	involved_in	GO:0006355	GO_REF:0000033	IBA	PANTHER:PTN000111405|UniProtKB:Q47129|UniProtKB:Q8PBF5	P	HTH-type DNA-binding transcriptional activator EutR	eutR|STM2454	protein	taxon:99287	20240827	GO_Central		
+UniProtKB	Q9ZFU7	eutR	enables	GO:0003700	GO_REF:0000033	IBA	PANTHER:PTN000111405|UniProtKB:Q47129	F	HTH-type DNA-binding transcriptional activator EutR	eutR|STM2454	protein	taxon:99287	20240827	GO_Central		
+UniProtKB	Q9ZFU7	eutR	enables	GO:0000987	GO_REF:0000033	IBA	PANTHER:PTN000111405|UniProtKB:Q47129	F	HTH-type DNA-binding transcriptional activator EutR	eutR|STM2454	protein	taxon:99287	20240827	GO_Central		
+UniProtKB	O25943	recN	is_active_in	GO:0043590	GO_REF:0000033	IBA	PANTHER:PTN000114916|UniProtKB:P05824|UniProtKB:P17894	C	DNA repair protein RecN	recN|HP_1393	protein	taxon:85962	20240304	GO_Central		
+UniProtKB	O25943	recN	involved_in	GO:0009432	GO_REF:0000033	IBA	PANTHER:PTN000114916|UniProtKB:P05824|UniProtKB:P44496	P	DNA repair protein RecN	recN|HP_1393	protein	taxon:85962	20240304	GO_Central		
+UniProtKB	Q751Z0	PRM1	is_active_in	GO:0043332	GO_REF:0000033	IBA	PANTHER:PTN001256875|PomBase:SPAP7G5.03|SGD:S000005223	C	Plasma membrane fusion protein PRM1	PRM1|AFR685C	protein	taxon:284811	20170228	GO_Central		
+UniProtKB	Q751Z0	PRM1	involved_in	GO:0032220	GO_REF:0000033	IBA	PANTHER:PTN001256875|PomBase:SPAP7G5.03|SGD:S000005223	P	Plasma membrane fusion protein PRM1	PRM1|AFR685C	protein	taxon:284811	20170228	GO_Central		
+UniProtKB	Q03370	PEX29	located_in	GO:0005777	PMID:27129769	IDA		C	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20160629	SGD		
+UniProtKB	Q03370	PEX29	located_in	GO:0005778	PMID:12707309	IDA		C	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20130807	SGD		
+UniProtKB	Q03370	PEX29	located_in	GO:0005783	PMID:27129769	IDA		C	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20160629	SGD		
+UniProtKB	Q03370	PEX29	involved_in	GO:0007031	PMID:12707309	IDA		P	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20130807	SGD		
+UniProtKB	Q03370	PEX29	enables	GO:0003674	GO_REF:0000015	ND		F	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20130807	SGD		
+UniProtKB	Q03370	PEX29	involved_in	GO:0032581	PMID:27129769	IGI	SGD:S000004316	P	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20160629	SGD		
+UniProtKB	Q03370	PEX29	located_in	GO:0005783	PMID:26928762	HDA		C	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20181120	SGD		
+UniProtKB	Q03370	PEX29	involved_in	GO:0007031	PMID:12707309	IMP		P	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20130807	SGD		
+UniProtKB	Q03370	PEX29	is_active_in	GO:0005778	GO_REF:0000033	IBA	PANTHER:PTN002001665|SGD:S000001193|SGD:S000002887	C	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20170228	GO_Central		
+UniProtKB	Q03370	PEX29	involved_in	GO:0007031	GO_REF:0000033	IBA	PANTHER:PTN002001665|SGD:S000001193|SGD:S000002887	P	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20170228	GO_Central		
+UniProtKB	Q03370	PEX29	enables	GO:0005515	PMID:11283351	IPI	UniProtKB:Q06169	F	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20250426	IntAct		
+UniProtKB	Q03370	PEX29	enables	GO:0005515	PMID:37968396	IPI	UniProtKB:Q06169	F	Peroxisomal membrane protein PEX29	PEX29|YDR479C	protein	taxon:559292	20250426	IntAct		
+UniProtKB	Q96T76	MMS19	located_in	GO:0005654	GO_REF:0000052	IDA		C	MMS19 nucleotide excision repair protein homolog	MMS19|MMS19L	protein	taxon:9606	20241022	HPA		UniProtKB:Q96T76-9
+UniProtKB	Q96T76	MMS19	located_in	GO:0005829	GO_REF:0000052	IDA		C	MMS19 nucleotide excision repair protein homolog	MMS19|MMS19L	protein	taxon:9606	20241022	HPA		UniProtKB:Q96T76-9
+UniProtKB	Q8CF25	Q8CF25	is_active_in	GO:0005575	GO_REF:0000015	ND		C	UPF0575 protein C19orf67 homolog		protein	taxon:10090	20100202	MGI		
+UniProtKB	Q8CF25	Q8CF25	enables	GO:0003674	GO_REF:0000015	ND		F	UPF0575 protein C19orf67 homolog		protein	taxon:10090	20100202	MGI		
+UniProtKB	Q8CF25	Q8CF25	acts_upstream_of_or_within	GO:0001701	PMID:27996060	IMP	MGI:MGI:5289829	P	UPF0575 protein C19orf67 homolog		protein	taxon:10090	20190515	MGI		
+UniProtKB	Q6PFR5	Tra2a	part_of	GO:0005681	GO_REF:0000033	IBA	PANTHER:PTN000391532|RGD:1306751|UniProtKB:P38159|UniProtKB:P62995	C	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20180406	GO_Central		
+UniProtKB	Q6PFR5	Tra2a	involved_in	GO:0048026	GO_REF:0000033	IBA	MGI:MGI:106016|MGI:MGI:1933972|PANTHER:PTN000391532|RGD:1306751|UniProtKB:P62995	P	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20180406	GO_Central		
+UniProtKB	Q6PFR5	Tra2a	enables	GO:0003723	GO_REF:0000033	IBA	FB:FBgn0003742|MGI:MGI:893588|MGI:MGI:97286|PANTHER:PTN000391532|RGD:1306751|RGD:1565256|RGD:3153|TAIR:locus:504955485|UniProtKB:A0A8J1LIA3|UniProtKB:P0DJD3|UniProtKB:P0DJD4|UniProtKB:P19338|UniProtKB:P38159|UniProtKB:P62995|UniProtKB:Q14011	F	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20240920	GO_Central		
+UniProtKB	Q6PFR5	Tra2a	located_in	GO:0005634	PMID:28785060	IDA		C	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20210910	UniProt		
+UniProtKB	Q6PFR5	Tra2a	enables	GO:0005515	PMID:28785060	IPI	UniProtKB:B5TVM2	F	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20210910	UniProt		
+UniProtKB	Q6PFR5	Tra2a	enables	GO:0005515	PMID:28785060	IPI	UniProtKB:Q8CBR1	F	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20210910	UniProt		
+UniProtKB	Q6PFR5	Tra2a	located_in	GO:0005634	PMID:11401487	IDA		C	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20010803	MGI		
+UniProtKB	Q6PFR5	Tra2a	acts_upstream_of_or_within	GO:0048026	PMID:22194695	IDA		P	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20160201	MGI	has_input(MGI:MGI:1933972)	
+UniProtKB	Q6PFR5	Tra2a	enables	GO:0003723	PMID:11401487	ISS		F	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20010803	MGI		
+UniProtKB	Q6PFR5	Tra2a	enables	GO:0042802	PMID:16249178	IPI	UniProtKB:Q6PFR5	F	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20250426	IntAct		
+UniProtKB	Q6PFR5	Tra2a	enables	GO:0005515	PMID:16249178	IPI	UniProtKB:Q8BL97	F	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20250426	IntAct		
+UniProtKB	Q6PFR5	Tra2a	enables	GO:0005515	PMID:16249178	IPI	UniProtKB:Q9D1X0	F	Transformer-2 protein homolog alpha	Tra2a	protein	taxon:10090	20250426	IntAct		
+UniProtKB	Q54HD9	DDB_G0289517	is_active_in	GO:0005575	GO_REF:0000015	ND		C	Follistatin-like domain-containing protein DDB_G0289517	DDB_G0289517	protein	taxon:44689	20041210	dictyBase		
+UniProtKB	Q54HD9	DDB_G0289517	involved_in	GO:0008150	GO_REF:0000015	ND		P	Follistatin-like domain-containing protein DDB_G0289517	DDB_G0289517	protein	taxon:44689	20041210	dictyBase		
+UniProtKB	Q54HD9	DDB_G0289517	enables	GO:0003674	GO_REF:0000015	ND		F	Follistatin-like domain-containing protein DDB_G0289517	DDB_G0289517	protein	taxon:44689	20041210	dictyBase		
+UniProtKB	Q21997	der-2	is_active_in	GO:0005789	GO_REF:0000033	IBA	PANTHER:PTN000109990|SGD:S000000405|UniProtKB:Q96Q80|UniProtKB:Q9BUN8|UniProtKB:Q9GZP9	C	Derlin-2	der-2|R151.6	protein	taxon:6239	20231128	GO_Central		
+UniProtKB	Q21997	der-2	involved_in	GO:0036503	GO_REF:0000033	IBA	MGI:MGI:2151483|PANTHER:PTN000109990|SGD:S000000405|SGD:S000002819|UniProtKB:Q4WDG5|UniProtKB:Q96Q80|UniProtKB:Q9BUN8|UniProtKB:Q9GZP9	P	Derlin-2	der-2|R151.6	protein	taxon:6239	20240205	GO_Central		
+UniProtKB	Q21997	der-2	enables	GO:0005047	GO_REF:0000033	IBA	PANTHER:PTN000109990|UniProtKB:Q96Q80|UniProtKB:Q9BUN8|UniProtKB:Q9GZP9	F	Derlin-2	der-2|R151.6	protein	taxon:6239	20231128	GO_Central		
+UniProtKB	Q21997	der-2	involved_in	GO:0030968	GO_REF:0000033	IBA	PANTHER:PTN000109990|SGD:S000002819|UniProtKB:Q96Q80|UniProtKB:Q9BUN8|UniProtKB:Q9GZP9	P	Derlin-2	der-2|R151.6	protein	taxon:6239	20190524	GO_Central		
+UniProtKB	Q21997	der-2	enables	GO:0005047	GO_REF:0000024	ISS	UniProtKB:Q9GZP9	F	Derlin-2	der-2|R151.6	protein	taxon:6239	20201117	UniProt		
+UniProtKB	Q21997	der-2	enables	GO:0003674	GO_REF:0000015	ND		F	Derlin-2	der-2|R151.6	protein	taxon:6239	20180822	WB		
+UniProtKB	Q21997	der-2	involved_in	GO:0036498	PMID:16184190	HEP		P	Derlin-2	der-2|R151.6	protein	taxon:6239	20180822	WB		
+UniProtKB	Q21997	der-2	located_in	GO:0005789	GO_REF:0000024	ISS	UniProtKB:Q9GZP9	C	Derlin-2	der-2|R151.6	protein	taxon:6239	20060227	UniProt		
+UniProtKB	Q21997	der-2	involved_in	GO:0036503	GO_REF:0000024	ISS	UniProtKB:Q9GZP9	P	Derlin-2	der-2|R151.6	protein	taxon:6239	20060227	UniProt		
+UniProtKB	Q21997	der-2	involved_in	GO:0030307	GO_REF:0000024	ISS	UniProtKB:Q9GZP9	P	Derlin-2	der-2|R151.6	protein	taxon:6239	20060227	UniProt		
+UniProtKB	Q21997	der-2	involved_in	GO:0030968	GO_REF:0000024	ISS	UniProtKB:Q9GZP9	P	Derlin-2	der-2|R151.6	protein	taxon:6239	20060227	UniProt		
+UniProtKB	Q21997	der-2	involved_in	GO:0030970	GO_REF:0000024	ISS	UniProtKB:Q9GZP9	P	Derlin-2	der-2|R151.6	protein	taxon:6239	20060227	UniProt		
+UniProtKB	Q21997	der-2	involved_in	GO:0008284	GO_REF:0000024	ISS	UniProtKB:Q9GZP9	P	Derlin-2	der-2|R151.6	protein	taxon:6239	20060227	UniProt		
+UniProtKB	Q7XZF7	GYRA	enables	GO:0005524	GO_REF:0000033	IBA	PANTHER:PTN001607041|UniProtKB:P9WG47|UniProtKB:Q8I0X3	F	Probable DNA gyrase subunit A, chloroplastic/mitochondrial	GYRA|LOC_Os03g59750|Os03g0812000|OSJNBa0024F18.37|OSJNBb0033J23.17	protein	taxon:39947	20230112	GO_Central		
+UniProtKB	Q7XZF7	GYRA	contributes_to	GO:0003918	GO_REF:0000033	IBA	PANTHER:PTN001607041|TAIR:locus:2075765|UniProtKB:O67108|UniProtKB:P0AFI2	F	Probable DNA gyrase subunit A, chloroplastic/mitochondrial	GYRA|LOC_Os03g59750|Os03g0812000|OSJNBa0024F18.37|OSJNBb0033J23.17	protein	taxon:39947	20210531	GO_Central		
+UniProtKB	Q7XZF7	GYRA	is_active_in	GO:0005737	GO_REF:0000033	IBA	PANTHER:PTN000018855|UniProtKB:P0AES4|UniProtKB:P0AFI2	C	Probable DNA gyrase subunit A, chloroplastic/mitochondrial	GYRA|LOC_Os03g59750|Os03g0812000|OSJNBa0024F18.37|OSJNBb0033J23.17	protein	taxon:39947	20201206	GO_Central		
+UniProtKB	Q7XZF7	GYRA	part_of	GO:0009330	GO_REF:0000033	IBA	PANTHER:PTN001607041|UniProtKB:O67108|UniProtKB:P0AFI2|UniProtKB:Q9HUK1	C	Probable DNA gyrase subunit A, chloroplastic/mitochondrial	GYRA|LOC_Os03g59750|Os03g0812000|OSJNBa0024F18.37|OSJNBb0033J23.17	protein	taxon:39947	20231109	GO_Central		
+UniProtKB	Q7XZF7	GYRA	involved_in	GO:0006265	GO_REF:0000033	IBA	PANTHER:PTN001607041|UniProtKB:P0AES4|UniProtKB:P0AFI2|UniProtKB:P9WG47|UniProtKB:Q8I0X3|UniProtKB:Q9HUK1	P	Probable DNA gyrase subunit A, chloroplastic/mitochondrial	GYRA|LOC_Os03g59750|Os03g0812000|OSJNBa0024F18.37|OSJNBb0033J23.17	protein	taxon:39947	20230112	GO_Central		
+UniProtKB	Q7XZF7	GYRA	enables	GO:0003677	GO_REF:0000033	IBA	PANTHER:PTN001607041|UniProtKB:P0AES4|UniProtKB:P0AFI2|UniProtKB:Q8I0X3	F	Probable DNA gyrase subunit A, chloroplastic/mitochondrial	GYRA|LOC_Os03g59750|Os03g0812000|OSJNBa0024F18.37|OSJNBb0033J23.17	protein	taxon:39947	20230112	GO_Central		
+UniProtKB	P30650	seb-2	enables	GO:0008528	GO_REF:0000033	IBA	FB:FBgn0260753|MGI:MGI:101950|MGI:MGI:1926944|MGI:MGI:99572|PANTHER:PTN001737881|RGD:2669|RGD:2703|RGD:620270|RGD:621001|UniProtKB:A0A287ABC1|UniProtKB:P30988|UniProtKB:P43220|UniProtKB:P47871|UniProtKB:Q16602|WB:WBGene00015735|ZFIN:ZDB-GENE-050516-1	F	G-protein coupled receptor seb-2	seb-2|ZK643.3	protein	taxon:6239	20241121	GO_Central		
+UniProtKB	P30650	seb-2	is_active_in	GO:0005886	GO_REF:0000033	IBA	FB:FBgn0033744|FB:FBgn0033932|FB:FBgn0052843|FB:FBgn0260753|MGI:MGI:1352753|MGI:MGI:88498|MGI:MGI:95710|MGI:MGI:99572|PANTHER:PTN001737881|RGD:2038|RGD:2688|RGD:2703|RGD:3442|UniProtKB:A6QP74|UniProtKB:P30988|UniProtKB:P32241|UniProtKB:P34998|UniProtKB:P41586|UniProtKB:P41587|UniProtKB:P43220|UniProtKB:P47871|UniProtKB:Q02643|UniProtKB:Q03431|UniProtKB:Q13324|UniProtKB:Q16602|WB:WBGene00015735	C	G-protein coupled receptor seb-2	seb-2|ZK643.3	protein	taxon:6239	20241121	GO_Central		
+UniProtKB	P30650	seb-2	involved_in	GO:0007188	GO_REF:0000033	IBA	FB:FBgn0260753|MGI:MGI:101950|MGI:MGI:1352753|MGI:MGI:1926944|MGI:MGI:2441720|MGI:MGI:88498|MGI:MGI:95710|MGI:MGI:97801|MGI:MGI:99572|PANTHER:PTN001737881|RGD:2669|RGD:2703|RGD:3442|RGD:61276|RGD:620270|RGD:621001|UniProtKB:P30988|UniProtKB:P32241|UniProtKB:P34998|UniProtKB:P41586|UniProtKB:P41587|UniProtKB:P43220|UniProtKB:P47871|UniProtKB:P47872|UniProtKB:P48546|UniProtKB:Q02643|UniProtKB:Q03431|UniProtKB:Q16602|UniProtKB:Q8WN93|WB:WBGene00015735|ZFIN:ZDB-GENE-010406-4|ZFIN:ZDB-GENE-050311-6|ZFIN:ZDB-GENE-050315-1|ZFIN:ZDB-GENE-050315-2|ZFIN:ZDB-GENE-991123-10	P	G-protein coupled receptor seb-2	seb-2|ZK643.3	protein	taxon:6239	20241121	GO_Central		
+UniProtKB	Q22682	glt-4	enables	GO:0005313	GO_REF:0000033	IBA	FB:FBgn0026439|MGI:MGI:101931|MGI:MGI:105083|MGI:MGI:1096331|MGI:MGI:2444087|MGI:MGI:99917|PANTHER:PTN000238242|RGD:3696|RGD:3697|RGD:3698|RGD:620340|UniProtKB:P43003|UniProtKB:P43004|UniProtKB:P43005|UniProtKB:P48664|WB:WBGene00001620	F	Putative sodium-dependent excitatory amino acid transporter glt-4	glt-4|T22E5.2	protein	taxon:6239	20220922	GO_Central		
+UniProtKB	Q22682	glt-4	is_active_in	GO:0005886	GO_REF:0000033	IBA	MGI:MGI:101931|MGI:MGI:105083|MGI:MGI:105305|MGI:MGI:1096331|MGI:MGI:2444087|MGI:MGI:99917|PANTHER:PTN000238242|RGD:3696|RGD:3697|RGD:3698|RGD:620340|UniProtKB:P43003|UniProtKB:P43004|UniProtKB:P43005|UniProtKB:P43007|UniProtKB:P48664|UniProtKB:Q15758	C	Putative sodium-dependent excitatory amino acid transporter glt-4	glt-4|T22E5.2	protein	taxon:6239	20240730	GO_Central		
+UniProtKB	Q22682	glt-4	enables	GO:0015175	GO_REF:0000033	IBA	MGI:MGI:101931|MGI:MGI:105083|MGI:MGI:105305|MGI:MGI:2135601|PANTHER:PTN000238242|UniProtKB:P43005|UniProtKB:P43007|UniProtKB:Q15758	F	Putative sodium-dependent excitatory amino acid transporter glt-4	glt-4|T22E5.2	protein	taxon:6239	20240205	GO_Central		
+UniProtKB	Q22682	glt-4	enables	GO:0015501	GO_REF:0000033	IBA	FB:FBgn0026439|MGI:MGI:101931|MGI:MGI:105083|MGI:MGI:2444087|MGI:MGI:99917|PANTHER:PTN000238242|RGD:3696|RGD:3697|RGD:3698|RGD:620340|UniProtKB:O00341|UniProtKB:P43003|UniProtKB:P43004|UniProtKB:P43005|UniProtKB:P48664	F	Putative sodium-dependent excitatory amino acid transporter glt-4	glt-4|T22E5.2	protein	taxon:6239	20230110	GO_Central		
+UniProtKB	Q22682	glt-4	involved_in	GO:0015813	GO_REF:0000033	IBA	MGI:MGI:101931|MGI:MGI:105083|MGI:MGI:1096331|MGI:MGI:2444087|MGI:MGI:99917|PANTHER:PTN002278999|RGD:3696|RGD:3697|RGD:3698|RGD:620340|UniProtKB:P43003|UniProtKB:P43004|UniProtKB:P43005|UniProtKB:P46411|UniProtKB:P48664|UniProtKB:Q95135	P	Putative sodium-dependent excitatory amino acid transporter glt-4	glt-4|T22E5.2	protein	taxon:6239	20250411	GO_Central		
+UniProtKB	Q7CPK0	ugpB	involved_in	GO:0001407	GO_REF:0000033	IBA	PANTHER:PTN009171421|UniProtKB:P0AG80	P	sn-glycerol-3-phosphate-binding periplasmic protein UgpB	ugpB|STM3557	protein	taxon:99287	20241126	GO_Central		
+UniProtKB	Q7CPK0	ugpB	is_active_in	GO:0016020	GO_REF:0000033	IBA	PANTHER:PTN008683571|UniProtKB:P0AG80|UniProtKB:P9WGU9	C	sn-glycerol-3-phosphate-binding periplasmic protein UgpB	ugpB|STM3557	protein	taxon:99287	20241126	GO_Central		
+UniProtKB	Q7CPK0	ugpB	involved_in	GO:0015794	GO_REF:0000033	IBA	PANTHER:PTN009171421|UniProtKB:P0AG80	P	sn-glycerol-3-phosphate-binding periplasmic protein UgpB	ugpB|STM3557	protein	taxon:99287	20241126	GO_Central		
+UniProtKB	Q7CPK0	ugpB	enables	GO:0022857	GO_REF:0000033	IBA	PANTHER:PTN008683571|UniProtKB:P9WGU9	F	sn-glycerol-3-phosphate-binding periplasmic protein UgpB	ugpB|STM3557	protein	taxon:99287	20241126	GO_Central		
+UniProtKB	P54375	sodA	is_active_in	GO:0005737	GO_REF:0000033	IBA	PANTHER:PTN002461864|SGD:S000002755|SGD:S000003862|UniProtKB:P00448	C	Superoxide dismutase [Mn]	sodA|yqgD|BSU25020	protein	taxon:224308	20230720	GO_Central		
+UniProtKB	P54375	sodA	enables	GO:0004784	GO_REF:0000033	IBA	PANTHER:PTN000150211|UniProtKB:P00448|UniProtKB:Q9RUV2	F	Superoxide dismutase [Mn]	sodA|yqgD|BSU25020	protein	taxon:224308	20230720	GO_Central		
+UniProtKB	P54375	sodA	involved_in	GO:0019430	GO_REF:0000033	IBA	PANTHER:PTN000150211|UniProtKB:P00448	P	Superoxide dismutase [Mn]	sodA|yqgD|BSU25020	protein	taxon:224308	20230720	GO_Central		
+UniProtKB	Q7L5A3	ATOSB	located_in	GO:0005634	GO_REF:0000054	IDA		C	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20100607	LIFEdb		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:21516116	IPI	UniProtKB:Q13422	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:21516116	IPI	UniProtKB:Q5TD97	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:21516116	IPI	UniProtKB:Q9BUZ4	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:O95235	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:P14373	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q13422	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q14689	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q8NHQ1	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:25416956	IPI	UniProtKB:Q96EY1-2	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:29892012	IPI	UniProtKB:P14373	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:29892012	IPI	UniProtKB:Q13422	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:29892012	IPI	UniProtKB:Q8NHQ1	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:29892012	IPI	UniProtKB:Q99750	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:29892012	IPI	UniProtKB:Q9BUZ4	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:31515488	IPI	UniProtKB:O95235	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:31515488	IPI	UniProtKB:Q13422	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:31515488	IPI	UniProtKB:Q5TD97	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:31515488	IPI	UniProtKB:Q8NHQ1	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:A8MQ03	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O00160	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O00167-2	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O00308	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O00505	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O15131	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O60504	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O75031	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O76011	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:O95429	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:P14373	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:P25791-3	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:P57052	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q08117-2	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q08379	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q12933	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q13064	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q13137	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q13422-7	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q14192	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q16825	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q3LI66	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q3LI67	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q3LI70	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q3LI72	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q5JST6	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q5TD97	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q6PI77	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q7Z3I7	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q86Z20	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8N720	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8NCR3	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8ND83	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q8TDC0	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q96N21	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q99471	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q99750	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9BRK4	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9BUZ4	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9H0C1	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9NQX0	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9NR12	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9NRD5	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9NUY8	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9NYB9-2	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9NZC7-5	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9P2Y4	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9UGI0	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9UHJ3	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9UJV3-2	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9UJY1	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9ULV0-2	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9ULX6	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
+UniProtKB	Q7L5A3	ATOSB	enables	GO:0005515	PMID:32296183	IPI	UniProtKB:Q9Y2B5	F	Atos homolog protein B	ATOSB|FAM214B|KIAA1539	protein	taxon:9606	20250426	IntAct		
